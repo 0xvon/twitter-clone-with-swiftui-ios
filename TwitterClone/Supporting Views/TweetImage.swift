@@ -15,8 +15,6 @@ struct TweetImage: View {
     var body: some View {
         image
             .relativeSize(width: 300, height: 200)
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 10)
     }
 }
 

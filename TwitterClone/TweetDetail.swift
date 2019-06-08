@@ -15,24 +15,9 @@ struct TweetDetail: View {
     
     var body: some View {
         VStack {
-            HStack(alignment: .leading) {
-                CircleImage(image: tweet.user.image(forSize: 64))
-                    .padding()
-                VStack(alignment: .leading) {
-                    Text(tweet.user.displayName)
-                    Text("@" + tweet.user.userName)
-                }
-                Spacer()
-            }
-            
-            VStack(alignment: .leading) {
-                HStack(alignment: .leading) {
-                    Text(tweet.text)
-                }
-//                TweetImage(image: tweet.image(forSize: 250))
-            }
+            UserView(tweet: tweet)
+            TweetView(tweet: tweet)
             Spacer()
-            
         }
     }
     

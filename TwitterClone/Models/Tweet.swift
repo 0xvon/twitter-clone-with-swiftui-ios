@@ -18,8 +18,8 @@ struct Tweet: Hashable, Codable, Identifiable {
     var isRetweeted: Bool
     var createdAt: String
     
-    func image(forSize size: Int) -> Image {
-        ImageStore.shared.image(name: imageName, size: size)
+    func image() -> Image {
+        ImageStore.shared.image(name: imageName, size: 300)
     }
     
     
