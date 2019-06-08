@@ -9,7 +9,9 @@
 import SwiftUI
 import CoreLocation
 
+
 struct Tweet: Hashable, Codable, Identifiable {
+    
     var id: Int
     var text: String
     var user: User
@@ -19,7 +21,7 @@ struct Tweet: Hashable, Codable, Identifiable {
     var createdAt: String
     
     func image() -> Image {
-        ImageStore.shared.image(name: imageName, size: )
+        ImageStore.shared.image(name: imageName, size: 350)
     }
     
     

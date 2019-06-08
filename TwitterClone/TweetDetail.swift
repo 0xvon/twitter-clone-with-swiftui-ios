@@ -17,6 +17,7 @@ struct TweetDetail: View {
         VStack {
             UserView(tweet: tweet)
             TweetView(tweet: tweet)
+            ActionBar(tweet: tweet)
             Spacer()
         }
     }

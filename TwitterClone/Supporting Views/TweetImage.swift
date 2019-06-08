@@ -10,11 +10,12 @@
 import SwiftUI
 
 struct TweetImage: View {
+    @Environment(\.pixelLength) var pixelLength: Length
     var image: Image
     
     var body: some View {
         image
-            .relativeSize(width: 300, height: 200)
+            .relativeSize(width: 2 / pixelLength, height: 200)
     }
 }
 
