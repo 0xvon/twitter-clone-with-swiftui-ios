@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "text": "こんにちは！"
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar.jpg",
+            "userName": "masatojames"
+        }
+        "imageName": "story.jpg",
+        "isFavorite": true,
+        "isRetweeted": false
+    },
+    {
+        "id": 2,
+        "text": "こんにちは！"
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar.jpg",
+            "userName": "masatojames"
+        }
+        "imageName": "story.jpg",
+        "isFavorite": true,
+        "isRetweeted": false
+    },
+    {
+        "id": 3,
+        "text": "こんにちは！"
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar.jpg",
+            "userName": "masatojames"
+        }
+        "imageName": "story.jpg",
+        "isFavorite": true,
+        "isRetweeted": false
+    },
+    {
+        "id": 4,
+        "text": "こんにちは！"
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar.jpg",
+            "userName": "masatojames"
+        }
+        "imageName": "story.jpg",
+        "isFavorite": true,
+        "isRetweeted": false
+    },
+    {
+        "id": 5,
+        "text": "こんにちは！"
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar.jpg",
+            "userName": "masatojames"
+        }
+        "imageName": "story.jpg",
+        "isFavorite": true,
+        "isRetweeted": false
+    }
+]
