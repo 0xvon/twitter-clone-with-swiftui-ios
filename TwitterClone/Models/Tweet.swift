@@ -16,6 +16,7 @@ struct Tweet: Hashable, Codable, Identifiable {
     fileprivate var imageName: String
     var isFavorite: Bool
     var isRetweeted: Bool
+    var createdAt: String
     
     func image(forSize size: Int) -> Image {
         ImageStore.shared.image(name: imageName, size: size)

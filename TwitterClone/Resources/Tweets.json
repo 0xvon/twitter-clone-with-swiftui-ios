@@ -10,7 +10,8 @@
         }
         "imageName": "story.jpg",
         "isFavorite": true,
-        "isRetweeted": false
+        "isRetweeted": false,
+        "createdAt": "2s"
     },
     {
         "id": 2,
@@ -23,7 +24,8 @@
         }
         "imageName": "story.jpg",
         "isFavorite": true,
-        "isRetweeted": false
+        "isRetweeted": false,
+        "createdAt": "2s"
     },
     {
         "id": 3,
@@ -36,7 +38,8 @@
         }
         "imageName": "story.jpg",
         "isFavorite": true,
-        "isRetweeted": false
+        "isRetweeted": false,
+        "createdAt": "2s"
     },
     {
         "id": 4,
@@ -49,7 +52,8 @@
         }
         "imageName": "story.jpg",
         "isFavorite": true,
-        "isRetweeted": false
+        "isRetweeted": false,
+        "createdAt": "2s"
     },
     {
         "id": 5,
@@ -62,6 +66,7 @@
         }
         "imageName": "story.jpg",
         "isFavorite": true,
-        "isRetweeted": false
+        "isRetweeted": false,
+        "createdAt": "2s"
     }
 ]
