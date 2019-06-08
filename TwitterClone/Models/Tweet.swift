@@ -19,7 +19,7 @@ struct Tweet: Hashable, Codable, Identifiable {
     var createdAt: String
     
     func image() -> Image {
-        ImageStore.shared.image(name: imageName, size: 300)
+        ImageStore.shared.image(name: imageName, size: )
     }
     
     
