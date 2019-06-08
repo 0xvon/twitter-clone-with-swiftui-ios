@@ -27,6 +27,8 @@
 		D9A81AF422ABC03B00FF1754 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF322ABC03B00FF1754 /* UserView.swift */; };
 		D9A81AF622ABC04600FF1754 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF522ABC04600FF1754 /* TweetView.swift */; };
 		D9A81AF822ABCCAE00FF1754 /* ActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF722ABCCAE00FF1754 /* ActionBar.swift */; };
+		D9A81AFA22ABD6BE00FF1754 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF922ABD6BE00FF1754 /* Timeline.swift */; };
+		D9A81AFC22ABD6D200FF1754 /* TimelineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AFB22ABD6D200FF1754 /* TimelineRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		D9A81AF322ABC03B00FF1754 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D9A81AF522ABC04600FF1754 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
 		D9A81AF722ABCCAE00FF1754 /* ActionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBar.swift; sourceTree = "<group>"; };
+		D9A81AF922ABD6BE00FF1754 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		D9A81AFB22ABD6D200FF1754 /* TimelineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				D925E73422ABA13400DE866D /* AppDelegate.swift */,
 				D925E73622ABA13400DE866D /* SceneDelegate.swift */,
 				D925E73822ABA13400DE866D /* TweetDetail.swift */,
+				D9A81AF922ABD6BE00FF1754 /* Timeline.swift */,
+				D9A81AFB22ABD6D200FF1754 /* TimelineRow.swift */,
 				D9A81AF222ABC01600FF1754 /* TweetDetailItems */,
 				D925E73A22ABA13500DE866D /* Assets.xcassets */,
 				D925E73F22ABA13500DE866D /* LaunchScreen.storyboard */,
@@ -348,6 +354,8 @@
 				D9A81AF622ABC04600FF1754 /* TweetView.swift in Sources */,
 				D925E76822ABA26700DE866D /* User.swift in Sources */,
 				D9A81AF422ABC03B00FF1754 /* UserView.swift in Sources */,
+				D9A81AFA22ABD6BE00FF1754 /* Timeline.swift in Sources */,
+				D9A81AFC22ABD6D200FF1754 /* TimelineRow.swift in Sources */,
 				D925E77322ABA84800DE866D /* CircleImage.swift in Sources */,
 				D925E73922ABA13400DE866D /* TweetDetail.swift in Sources */,
 			);

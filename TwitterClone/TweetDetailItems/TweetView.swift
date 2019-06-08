@@ -18,7 +18,7 @@ struct TweetView : View {
                 Text(tweet.text)
                 Spacer()
             }
-            TweetImage(image: tweet.image())
+            TweetImage(image: tweet.image(forSize: 300))
         }
             .padding()
     }

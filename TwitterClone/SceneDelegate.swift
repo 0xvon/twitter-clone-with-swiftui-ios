@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIHostingController(
-            rootView: TweetDetail(tweet: tweetsData[0])
+            rootView: Timeline()
                 .environmentObject(UserData())
         )
         self.window = window
