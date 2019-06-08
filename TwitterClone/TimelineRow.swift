@@ -29,9 +29,12 @@ struct TimelineRow : View {
                     .padding()
                 TweetImage(image: tweeet.image(forSize:200))
                     .padding()
+                
+                ActionBar(tweet: tweeet)
+                
             }
             Spacer()
-            
+    
         }
     }
 }

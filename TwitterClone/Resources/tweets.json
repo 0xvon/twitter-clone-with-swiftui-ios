@@ -12,5 +12,47 @@
         "isFavorite": true,
         "isRetweeted": false,
         "createdAt": "2s"
-    }
+    },
+    {
+        "id": 2,
+        "text": "こんにちは!",
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar",
+            "userName": "masatojames"
+        },
+        "imageName": "story",
+        "isFavorite": true,
+        "isRetweeted": false,
+        "createdAt": "2s"
+    },
+    {
+        "id": 3,
+        "text": "こんにちは!",
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar",
+            "userName": "masatojames"
+        },
+        "imageName": "story",
+        "isFavorite": true,
+        "isRetweeted": false,
+        "createdAt": "2s"
+    },
+    {
+        "id": 4,
+        "text": "こんにちは!",
+        "user": {
+            "id": 1,
+            "displayName": "masato",
+            "avatar": "avatar",
+            "userName": "masatojames"
+        },
+        "imageName": "story",
+        "isFavorite": true,
+        "isRetweeted": false,
+        "createdAt": "2s"
+    },
 ]
