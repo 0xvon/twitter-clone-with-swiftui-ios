@@ -9,7 +9,7 @@ import UIKit
 import SwiftUI
 import CoreLocation
 
-let tweet: [Tweet] = load("tweets.json")
+let tweetsData: [Tweet] = load("tweets.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

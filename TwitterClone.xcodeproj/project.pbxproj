@@ -22,6 +22,7 @@
 		D925E77022ABA61A00DE866D /* story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D925E76E22ABA61A00DE866D /* story.jpg */; };
 		D925E77322ABA84800DE866D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E77222ABA84800DE866D /* CircleImage.swift */; };
 		D925E77522ABA9D800DE866D /* tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = D925E76C22ABA47000DE866D /* tweets.json */; };
+		D925E77722ABAA5300DE866D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E77622ABAA5300DE866D /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		D925E76D22ABA61A00DE866D /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = ../../../../Downloads/avatar.jpg; sourceTree = "<group>"; };
 		D925E76E22ABA61A00DE866D /* story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = story.jpg; path = ../../../../Downloads/story.jpg; sourceTree = "<group>"; };
 		D925E77222ABA84800DE866D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D925E77622ABAA5300DE866D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				D925E76522ABA19F00DE866D /* Tweet.swift */,
 				D925E76722ABA26700DE866D /* User.swift */,
 				D925E76922ABA30400DE866D /* Data.swift */,
+				D925E77622ABAA5300DE866D /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				D925E73522ABA13400DE866D /* AppDelegate.swift in Sources */,
 				D925E76A22ABA30400DE866D /* Data.swift in Sources */,
+				D925E77722ABAA5300DE866D /* UserData.swift in Sources */,
 				D925E73722ABA13400DE866D /* SceneDelegate.swift in Sources */,
 				D925E76622ABA19F00DE866D /* Tweet.swift in Sources */,
 				D925E76822ABA26700DE866D /* User.swift in Sources */,

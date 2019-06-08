@@ -29,7 +29,7 @@ struct TweetDetail: View {
 #if DEBUG
 struct TweetDetail_Previews : PreviewProvider {
     static var previews: some View {
-        TweetDetail(tweet: tweet[0])
+        TweetDetail(tweet: tweetsData[0])
     }
 }
 #endif
