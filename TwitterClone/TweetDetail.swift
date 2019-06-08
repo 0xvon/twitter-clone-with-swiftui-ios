@@ -9,21 +9,33 @@
 import SwiftUI
 
 struct TweetDetail: View {
+    @EnvironmentObject var userData: UserData
     var tweet: Tweet
 //    var tweetIndex
     
     var body: some View {
         VStack {
-            HStack {
-                Text("Hello")
+            HStack(alignment: .leading) {
+                CircleImage(image: tweet.user.image(forSize: 64))
+                    .padding()
+                VStack(alignment: .leading) {
+                    Text(tweet.user.displayName)
+                    Text("@" + tweet.user.userName)
+                }
+                Spacer()
             }
             
-            Spacer()
-            VStack {
-                Text("Hello")
+            VStack(alignment: .leading) {
+                HStack(alignment: .leading) {
+                    Text(tweet.text)
+                }
+//                TweetImage(image: tweet.image(forSize: 250))
             }
+            Spacer()
+            
         }
     }
+    
 }
 
 #if DEBUG

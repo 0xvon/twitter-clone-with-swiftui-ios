@@ -5,66 +5,10 @@
         "user": {
             "id": 1,
             "displayName": "masato",
-            "avatar": "avatar.jpg",
+            "avatar": "avatar",
             "userName": "masatojames"
         },
-        "imageName": "story.jpg",
-        "isFavorite": true,
-        "isRetweeted": false,
-        "createdAt": "2s"
-    },
-    {
-        "id": 2,
-        "text": "こんにちは!",
-        "user": {
-            "id": 1,
-            "displayName": "masato",
-            "avatar": "avatar.jpg",
-            "userName": "masatojames"
-        },
-        "imageName": "story.jpg",
-        "isFavorite": true,
-        "isRetweeted": false,
-        "createdAt": "2s"
-    },
-    {
-        "id": 3,
-        "text": "こんにちは!",
-        "user": {
-            "id": 1,
-            "displayName": "masato",
-            "avatar": "avatar.jpg",
-            "userName": "masatojames"
-        },
-        "imageName": "story.jpg",
-        "isFavorite": true,
-        "isRetweeted": false,
-        "createdAt": "2s"
-    },
-    {
-        "id": 4,
-        "text": "こんにちは!",
-        "user": {
-            "id": 1,
-            "displayName": "masato",
-            "avatar": "avatar.jpg",
-            "userName": "masatojames"
-        },
-        "imageName": "story.jpg",
-        "isFavorite": true,
-        "isRetweeted": false,
-        "createdAt": "2s"
-    },
-    {
-        "id": 5,
-        "text": "こんにちは!",
-        "user": {
-            "id": 1,
-            "displayName": "masato",
-            "avatar": "avatar.jpg",
-            "userName": "masatojames"
-        },
-        "imageName": "story.jpg",
+        "imageName": "story",
         "isFavorite": true,
         "isRetweeted": false,
         "createdAt": "2s"
