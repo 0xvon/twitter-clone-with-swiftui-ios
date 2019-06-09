@@ -20,7 +20,7 @@ struct Timeline : View {
                             TimelineRow(tweeet: tweet)
                         }
                     }
-                    }
+                }
                     .navigationBarTitle(Text("TimeLine"))
                 
             }

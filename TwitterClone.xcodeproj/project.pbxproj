@@ -45,6 +45,17 @@
 		D9A81B1222AC92A300FF1754 /* EditMyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B1122AC92A300FF1754 /* EditMyPage.swift */; };
 		D9A81B1422AC9E8200FF1754 /* MyPageSummery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */; };
 		D9DFC1F122ACB2B50004D4A4 /* myfirststory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1F022ACB2B50004D4A4 /* myfirststory.jpg */; };
+		D9DFC1F322ACB4370004D4A4 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC1F222ACB4370004D4A4 /* SearchResult.swift */; };
+		D9DFC1F522ACB4C60004D4A4 /* SearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC1F422ACB4C60004D4A4 /* SearchResultRow.swift */; };
+		D9DFC1F822ACB4EA0004D4A4 /* ArtistDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC1F722ACB4EA0004D4A4 /* ArtistDetail.swift */; };
+		D9DFC1FA22ACC5DC0004D4A4 /* oneokrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1F922ACC5DC0004D4A4 /* oneokrock.jpg */; };
+		D9DFC1FC22ACC68E0004D4A4 /* manwithamission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1FB22ACC68E0004D4A4 /* manwithamission.jpg */; };
+		D9DFC1FE22ACC77C0004D4A4 /* radwimps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1FD22ACC77C0004D4A4 /* radwimps.jpg */; };
+		D9DFC20022ACC7CD0004D4A4 /* ellegarden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1FF22ACC7CD0004D4A4 /* ellegarden.jpg */; };
+		D9DFC20222ACC8B50004D4A4 /* myhairisbad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20122ACC8B50004D4A4 /* myhairisbad.jpg */; };
+		D9DFC20422ACC95A0004D4A4 /* 04limitedsazabys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */; };
+		D9DFC20622ACC9DA0004D4A4 /* theoralcigarettes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */; };
+		D9DFC20822ACCA990004D4A4 /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +120,17 @@
 		D9A81B1122AC92A300FF1754 /* EditMyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMyPage.swift; sourceTree = "<group>"; };
 		D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageSummery.swift; sourceTree = "<group>"; };
 		D9DFC1F022ACB2B50004D4A4 /* myfirststory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myfirststory.jpg; path = ../../../../Downloads/myfirststory.jpg; sourceTree = "<group>"; };
+		D9DFC1F222ACB4370004D4A4 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		D9DFC1F422ACB4C60004D4A4 /* SearchResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRow.swift; sourceTree = "<group>"; };
+		D9DFC1F722ACB4EA0004D4A4 /* ArtistDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetail.swift; sourceTree = "<group>"; };
+		D9DFC1F922ACC5DC0004D4A4 /* oneokrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oneokrock.jpg; path = ../../../../Downloads/oneokrock.jpg; sourceTree = "<group>"; };
+		D9DFC1FB22ACC68E0004D4A4 /* manwithamission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manwithamission.jpg; path = ../../../../Downloads/manwithamission.jpg; sourceTree = "<group>"; };
+		D9DFC1FD22ACC77C0004D4A4 /* radwimps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = radwimps.jpg; path = ../../../../Downloads/radwimps.jpg; sourceTree = "<group>"; };
+		D9DFC1FF22ACC7CD0004D4A4 /* ellegarden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ellegarden.jpg; path = ../../../../Downloads/ellegarden.jpg; sourceTree = "<group>"; };
+		D9DFC20122ACC8B50004D4A4 /* myhairisbad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myhairisbad.jpg; path = ../../../../Downloads/myhairisbad.jpg; sourceTree = "<group>"; };
+		D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04limitedsazabys.jpg; path = ../../../../Downloads/04limitedsazabys.jpg; sourceTree = "<group>"; };
+		D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = theoralcigarettes.jpg; path = ../../../../Downloads/theoralcigarettes.jpg; sourceTree = "<group>"; };
+		D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				D918CBB322ACB161007DFEB5 /* Search.swift */,
+				D9DFC1F222ACB4370004D4A4 /* SearchResult.swift */,
+				D9DFC1F422ACB4C60004D4A4 /* SearchResultRow.swift */,
+				D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -167,6 +192,7 @@
 		D925E73322ABA13400DE866D /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				D9DFC1F622ACB4D90004D4A4 /* ArtistDetail */,
 				D918CBB222ACB141007DFEB5 /* Search */,
 				D9A81B0622AC877E00FF1754 /* MyPage */,
 				D9A81B0522AC863800FF1754 /* CreateTweet */,
@@ -229,6 +255,13 @@
 		D925E76B22ABA43C00DE866D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */,
+				D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */,
+				D9DFC20122ACC8B50004D4A4 /* myhairisbad.jpg */,
+				D9DFC1FF22ACC7CD0004D4A4 /* ellegarden.jpg */,
+				D9DFC1FD22ACC77C0004D4A4 /* radwimps.jpg */,
+				D9DFC1FB22ACC68E0004D4A4 /* manwithamission.jpg */,
+				D9DFC1F922ACC5DC0004D4A4 /* oneokrock.jpg */,
 				D9DFC1F022ACB2B50004D4A4 /* myfirststory.jpg */,
 				D925E76D22ABA61A00DE866D /* avatar.jpg */,
 				D925E76E22ABA61A00DE866D /* story.jpg */,
@@ -304,6 +337,14 @@
 				D918CBAA22ACA15E007DFEB5 /* EditItem.swift */,
 			);
 			path = MyPageItems;
+			sourceTree = "<group>";
+		};
+		D9DFC1F622ACB4D90004D4A4 /* ArtistDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFC1F722ACB4EA0004D4A4 /* ArtistDetail.swift */,
+			);
+			path = ArtistDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,14 +452,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D925E76F22ABA61A00DE866D /* avatar.jpg in Resources */,
+				D9DFC20222ACC8B50004D4A4 /* myhairisbad.jpg in Resources */,
+				D9DFC1FA22ACC5DC0004D4A4 /* oneokrock.jpg in Resources */,
 				D925E77522ABA9D800DE866D /* tweets.json in Resources */,
+				D9DFC1FC22ACC68E0004D4A4 /* manwithamission.jpg in Resources */,
 				D9DFC1F122ACB2B50004D4A4 /* myfirststory.jpg in Resources */,
 				D925E74122ABA13500DE866D /* LaunchScreen.storyboard in Resources */,
+				D9DFC1FE22ACC77C0004D4A4 /* radwimps.jpg in Resources */,
 				D925E77022ABA61A00DE866D /* story.jpg in Resources */,
 				D925E73E22ABA13500DE866D /* Preview Assets.xcassets in Resources */,
+				D9DFC20422ACC95A0004D4A4 /* 04limitedsazabys.jpg in Resources */,
 				D9A81B0C22AC89C500FF1754 /* account.json in Resources */,
 				D918CBB622ACB18E007DFEB5 /* artists.json in Resources */,
 				D925E73B22ABA13500DE866D /* Assets.xcassets in Resources */,
+				D9DFC20622ACC9DA0004D4A4 /* theoralcigarettes.jpg in Resources */,
+				D9DFC20022ACC7CD0004D4A4 /* ellegarden.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,8 +492,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D925E73522ABA13400DE866D /* AppDelegate.swift in Sources */,
+				D9DFC1F822ACB4EA0004D4A4 /* ArtistDetail.swift in Sources */,
 				D925E77922ABAE5100DE866D /* TweetImage.swift in Sources */,
 				D925E76A22ABA30400DE866D /* Data.swift in Sources */,
+				D9DFC1F522ACB4C60004D4A4 /* SearchResultRow.swift in Sources */,
 				D925E77722ABAA5300DE866D /* UserData.swift in Sources */,
 				D9A81B0222AC80A900FF1754 /* CreateTweet.swift in Sources */,
 				D925E73722ABA13400DE866D /* SceneDelegate.swift in Sources */,
@@ -465,7 +515,9 @@
 				D9A81AFE22AC7E7700FF1754 /* TweetButton.swift in Sources */,
 				D9A81AF422ABC03B00FF1754 /* UserView.swift in Sources */,
 				D9A81B1222AC92A300FF1754 /* EditMyPage.swift in Sources */,
+				D9DFC1F322ACB4370004D4A4 /* SearchResult.swift in Sources */,
 				D9A81AFA22ABD6BE00FF1754 /* Timeline.swift in Sources */,
+				D9DFC20822ACCA990004D4A4 /* ArtistInfo.swift in Sources */,
 				D9A81AFC22ABD6D200FF1754 /* TimelineRow.swift in Sources */,
 				D925E77322ABA84800DE866D /* CircleImage.swift in Sources */,
 				D9A81B0A22AC87E800FF1754 /* Account.swift in Sources */,

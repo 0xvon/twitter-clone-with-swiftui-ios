@@ -23,4 +23,10 @@ final class UserData : BindableObject {
             didChange.send(self)
         }
     }
+    
+    var artists = artistData {
+        didSet {
+            didChange.send(self)
+        }
+    }
 }
