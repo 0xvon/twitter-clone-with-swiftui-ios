@@ -14,15 +14,15 @@ struct Home : View {
     var body: some View {
         TabbedView(selection: $selection) {
             Timeline()
-                .tabItemLabel(Image(systemName: "star"))
+                .tabItemLabel(Text("Timeline"))
                 .tag(0)
             
             Search()
-                .tabItemLabel(Image(systemName: "star"))
+                .tabItemLabel(Text("search"))
                 .tag(1)
             
             MyPage()
-                .tabItemLabel(Image(systemName: "star"))
+                .tabItemLabel(Text("MyPage"))
                 .tag(2)
         }
             .onAppear {
