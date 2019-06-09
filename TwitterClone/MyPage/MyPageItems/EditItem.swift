@@ -29,7 +29,7 @@ struct EditItem : View {
                 EditButton()
             }
             if self.mode?.value == .inactive {
-                MyPageSummery(account: account)
+//                MyPageSummery(account: account)
             } else {
                 EditMyPage(account: $draftAccount)
                     .onDisappear {

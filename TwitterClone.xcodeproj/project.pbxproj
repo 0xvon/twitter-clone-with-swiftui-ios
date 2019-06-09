@@ -56,6 +56,7 @@
 		D9DFC20422ACC95A0004D4A4 /* 04limitedsazabys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */; };
 		D9DFC20622ACC9DA0004D4A4 /* theoralcigarettes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */; };
 		D9DFC20822ACCA990004D4A4 /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */; };
+		D9DFC20B22ACD3DC0004D4A4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC20A22ACD3DC0004D4A4 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,7 @@
 		D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04limitedsazabys.jpg; path = ../../../../Downloads/04limitedsazabys.jpg; sourceTree = "<group>"; };
 		D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = theoralcigarettes.jpg; path = ../../../../Downloads/theoralcigarettes.jpg; sourceTree = "<group>"; };
 		D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
+		D9DFC20A22ACD3DC0004D4A4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		D925E73322ABA13400DE866D /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				D9DFC20922ACD3CD0004D4A4 /* Home */,
 				D9DFC1F622ACB4D90004D4A4 /* ArtistDetail */,
 				D918CBB222ACB141007DFEB5 /* Search */,
 				D9A81B0622AC877E00FF1754 /* MyPage */,
@@ -345,6 +348,14 @@
 				D9DFC1F722ACB4EA0004D4A4 /* ArtistDetail.swift */,
 			);
 			path = ArtistDetail;
+			sourceTree = "<group>";
+		};
+		D9DFC20922ACD3CD0004D4A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFC20A22ACD3DC0004D4A4 /* Home.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +516,7 @@
 				D918CBB422ACB161007DFEB5 /* Search.swift in Sources */,
 				D9A81B0022AC7F2200FF1754 /* TweetItemsView.swift in Sources */,
 				D9A81AF822ABCCAE00FF1754 /* ActionBar.swift in Sources */,
+				D9DFC20B22ACD3DC0004D4A4 /* Home.swift in Sources */,
 				D9A81B0822AC879400FF1754 /* MyPage.swift in Sources */,
 				D9A81B1422AC9E8200FF1754 /* MyPageSummery.swift in Sources */,
 				D918CBAB22ACA15E007DFEB5 /* EditItem.swift in Sources */,
