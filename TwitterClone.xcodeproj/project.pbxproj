@@ -34,6 +34,8 @@
 		D9A81B0222AC80A900FF1754 /* CreateTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0122AC80A900FF1754 /* CreateTweet.swift */; };
 		D9A81B0822AC879400FF1754 /* MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0722AC879400FF1754 /* MyPage.swift */; };
 		D9A81B0A22AC87E800FF1754 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0922AC87E800FF1754 /* Account.swift */; };
+		D9A81B0C22AC89C500FF1754 /* account.json in Resources */ = {isa = PBXBuildFile; fileRef = D9A81B0B22AC882400FF1754 /* account.json */; };
+		D9A81B0F22AC8AC500FF1754 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,7 @@
 		D9A81B0722AC879400FF1754 /* MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage.swift; sourceTree = "<group>"; };
 		D9A81B0922AC87E800FF1754 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D9A81B0B22AC882400FF1754 /* account.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = account.json; sourceTree = "<group>"; };
+		D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,9 +257,18 @@
 		D9A81B0622AC877E00FF1754 /* MyPage */ = {
 			isa = PBXGroup;
 			children = (
+				D9A81B0D22AC8AA800FF1754 /* MyPageItems */,
 				D9A81B0722AC879400FF1754 /* MyPage.swift */,
 			);
 			path = MyPage;
+			sourceTree = "<group>";
+		};
+		D9A81B0D22AC8AA800FF1754 /* MyPageItems */ = {
+			isa = PBXGroup;
+			children = (
+				D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */,
+			);
+			path = MyPageItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +380,7 @@
 				D925E74122ABA13500DE866D /* LaunchScreen.storyboard in Resources */,
 				D925E77022ABA61A00DE866D /* story.jpg in Resources */,
 				D925E73E22ABA13500DE866D /* Preview Assets.xcassets in Resources */,
+				D9A81B0C22AC89C500FF1754 /* account.json in Resources */,
 				D925E73B22ABA13500DE866D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +416,7 @@
 				D9A81AF822ABCCAE00FF1754 /* ActionBar.swift in Sources */,
 				D9A81B0822AC879400FF1754 /* MyPage.swift in Sources */,
 				D925E76622ABA19F00DE866D /* Tweet.swift in Sources */,
+				D9A81B0F22AC8AC500FF1754 /* BackgroundView.swift in Sources */,
 				D9A81AF622ABC04600FF1754 /* TweetView.swift in Sources */,
 				D925E76822ABA26700DE866D /* User.swift in Sources */,
 				D9A81AFE22AC7E7700FF1754 /* TweetButton.swift in Sources */,

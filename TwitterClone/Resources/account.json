@@ -1,8 +1,6 @@
-[
-    {
-        "id": 1,
-        "displayName": "masato",
-        "avatar": "avatar",
-        "userName": "masatojames"
-    }
-]
+{
+    "id": 1,
+    "displayName": "masato",
+    "avatar": "avatar",
+    "userName": "masatojames"
+}

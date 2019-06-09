@@ -10,7 +10,7 @@ import SwiftUI
 import CoreLocation
 
 let tweetsData: [Tweet] = load("tweets.json")
-let account: Account = load("account.json")
+let accountData: Account = load("account.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
@@ -43,12 +43,12 @@ final class ImageStore {
     
     static var shared = ImageStore()
     
-    func image(name: String, size: Int) -> Image {
+    func image(name: String, size: Int?) -> Image {
         let index = _guaranteeInitialImage(name: name)
         
-        let sizedImage = images.values[index][size]
-            ?? _sizeImage(images.values[index][ImageStore.originalSize]!, to: size * ImageStore.scale)
-        images.values[index][size] = sizedImage
+        let sizedImage = images.values[index][size!]
+            ?? _sizeImage(images.values[index][ImageStore.originalSize]!, to: size! * ImageStore.scale)
+        images.values[index][size!] = sizedImage
         
         return Image(sizedImage, scale: Length(ImageStore.scale), label: Text(verbatim: name))
     }
@@ -91,4 +91,3 @@ final class ImageStore {
         }
     }
 }
-

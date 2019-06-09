@@ -17,4 +17,10 @@ final class UserData : BindableObject {
             didChange.send(self)
         }
     }
+    
+    var account = accountData {
+        didSet {
+            didChange.send(self)
+        }
+    }
 }
