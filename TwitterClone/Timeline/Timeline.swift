@@ -24,9 +24,8 @@ struct Timeline : View {
                     .navigationBarTitle(Text("TimeLine"))
                 
             }
-            NavigationButton(destination: CreateTweet()) {
-                TweetButton()
-            }
+            
+            TweetButton()
             
         }
         

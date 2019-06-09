@@ -1,5 +1,5 @@
 //
-//  CreateTweet.swift
+//  MyPage.swift
 //  TwitterClone
 //
 //  Created by Masato TSUTSUMI on 2019/06/09.
@@ -8,16 +8,16 @@
 
 import SwiftUI
 
-struct CreateTweet : View {
+struct MyPage : View {
     var body: some View {
-        Text("hello")
+        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #if DEBUG
-struct CreateTweet_Previews : PreviewProvider {
+struct MyPage_Previews : PreviewProvider {
     static var previews: some View {
-        CreateTweet()
+        MyPage()
     }
 }
 #endif
