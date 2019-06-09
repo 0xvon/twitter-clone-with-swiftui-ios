@@ -11,6 +11,7 @@ import CoreLocation
 
 let tweetsData: [Tweet] = load("tweets.json")
 let accountData: Account = load("account.json")
+let artistData: [Artist] = load("artists.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
