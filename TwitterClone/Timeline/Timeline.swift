@@ -12,15 +12,25 @@ struct Timeline : View {
     @EnvironmentObject private var userData: UserData
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(userData.tweets) { tweet in
-                    NavigationButton(destination: TweetDetail(tweet: tweet)) {
-                        TimelineRow(tweeet: tweet)
+        VStack {
+            NavigationView {
+                List {
+                    ForEach(userData.tweets) { tweet in
+                        NavigationButton(destination: TweetDetail(tweet: tweet)) {
+                            TimelineRow(tweeet: tweet)
+                        }
                     }
-                }
+                    }
+                    .navigationBarTitle(Text("TimeLine"))
+                
             }
+            NavigationButton(destination: CreateTweet()) {
+                TweetButton()
+            }
+            
         }
+        
+        
     }
 }
 
