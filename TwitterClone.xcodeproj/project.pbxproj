@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D918CBAB22ACA15E007DFEB5 /* EditItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918CBAA22ACA15E007DFEB5 /* EditItem.swift */; };
 		D925E73522ABA13400DE866D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E73422ABA13400DE866D /* AppDelegate.swift */; };
 		D925E73722ABA13400DE866D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E73622ABA13400DE866D /* SceneDelegate.swift */; };
 		D925E73922ABA13400DE866D /* TweetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E73822ABA13400DE866D /* TweetDetail.swift */; };
@@ -36,6 +37,8 @@
 		D9A81B0A22AC87E800FF1754 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0922AC87E800FF1754 /* Account.swift */; };
 		D9A81B0C22AC89C500FF1754 /* account.json in Resources */ = {isa = PBXBuildFile; fileRef = D9A81B0B22AC882400FF1754 /* account.json */; };
 		D9A81B0F22AC8AC500FF1754 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */; };
+		D9A81B1222AC92A300FF1754 /* EditMyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B1122AC92A300FF1754 /* EditMyPage.swift */; };
+		D9A81B1422AC9E8200FF1754 /* MyPageSummery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D918CBAA22ACA15E007DFEB5 /* EditItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItem.swift; sourceTree = "<group>"; };
 		D925E73122ABA13400DE866D /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D925E73422ABA13400DE866D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D925E73622ABA13400DE866D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		D9A81B0922AC87E800FF1754 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D9A81B0B22AC882400FF1754 /* account.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = account.json; sourceTree = "<group>"; };
 		D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		D9A81B1122AC92A300FF1754 /* EditMyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMyPage.swift; sourceTree = "<group>"; };
+		D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageSummery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +273,9 @@
 			isa = PBXGroup;
 			children = (
 				D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */,
+				D9A81B1122AC92A300FF1754 /* EditMyPage.swift */,
+				D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */,
+				D918CBAA22ACA15E007DFEB5 /* EditItem.swift */,
 			);
 			path = MyPageItems;
 			sourceTree = "<group>";
@@ -415,12 +424,15 @@
 				D9A81B0022AC7F2200FF1754 /* TweetItemsView.swift in Sources */,
 				D9A81AF822ABCCAE00FF1754 /* ActionBar.swift in Sources */,
 				D9A81B0822AC879400FF1754 /* MyPage.swift in Sources */,
+				D9A81B1422AC9E8200FF1754 /* MyPageSummery.swift in Sources */,
+				D918CBAB22ACA15E007DFEB5 /* EditItem.swift in Sources */,
 				D925E76622ABA19F00DE866D /* Tweet.swift in Sources */,
 				D9A81B0F22AC8AC500FF1754 /* BackgroundView.swift in Sources */,
 				D9A81AF622ABC04600FF1754 /* TweetView.swift in Sources */,
 				D925E76822ABA26700DE866D /* User.swift in Sources */,
 				D9A81AFE22AC7E7700FF1754 /* TweetButton.swift in Sources */,
 				D9A81AF422ABC03B00FF1754 /* UserView.swift in Sources */,
+				D9A81B1222AC92A300FF1754 /* EditMyPage.swift in Sources */,
 				D9A81AFA22ABD6BE00FF1754 /* Timeline.swift in Sources */,
 				D9A81AFC22ABD6D200FF1754 /* TimelineRow.swift in Sources */,
 				D925E77322ABA84800DE866D /* CircleImage.swift in Sources */,

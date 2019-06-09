@@ -9,11 +9,16 @@
 import SwiftUI
 
 struct MyPage : View {
-    @EnvironmentObject var userData: UserData
-    var account: Account
+    @Environment(\.editMode) var mode
+    @State var account = Account.default
+    @State var draftAccount = Account.default
     
     var body: some View {
         VStack {
+            EditItem()
+            .padding()
+            
+            
             BackgroundView()
                 .frame(height: 300)
                 .edgesIgnoringSafeArea(.top)
@@ -23,8 +28,11 @@ struct MyPage : View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(account.displayName)
-                    .font(.title)
+                HStack {
+                    Text(account.displayName)
+                        .font(.title)
+                    Image(systemName: "star")
+                }
                 HStack(alignment: .top) {
                     Text("@" + account.userName)
                         .font(.subheadline)
