@@ -18,8 +18,8 @@ struct ArtistDetail : View {
                 .frame(height: 300)
                 .edgesIgnoringSafeArea(.top)
             
-            CircleImage(image: artist.image(forSize: 150))
-                .offset(y: -230)
+            CircleImage(image: artist.image(forSize: 200))
+                .offset(y: -200)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {

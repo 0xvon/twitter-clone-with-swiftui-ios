@@ -24,12 +24,20 @@
 		D925E76622ABA19F00DE866D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E76522ABA19F00DE866D /* Tweet.swift */; };
 		D925E76822ABA26700DE866D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E76722ABA26700DE866D /* User.swift */; };
 		D925E76A22ABA30400DE866D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E76922ABA30400DE866D /* Data.swift */; };
-		D925E76F22ABA61A00DE866D /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D925E76D22ABA61A00DE866D /* avatar.jpg */; };
-		D925E77022ABA61A00DE866D /* story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D925E76E22ABA61A00DE866D /* story.jpg */; };
 		D925E77322ABA84800DE866D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E77222ABA84800DE866D /* CircleImage.swift */; };
 		D925E77522ABA9D800DE866D /* tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = D925E76C22ABA47000DE866D /* tweets.json */; };
 		D925E77722ABAA5300DE866D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E77622ABAA5300DE866D /* UserData.swift */; };
 		D925E77922ABAE5100DE866D /* TweetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925E77822ABAE5100DE866D /* TweetImage.swift */; };
+		D98F241022AD19E7008CF28A /* story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240622AD19E6008CF28A /* story.jpg */; };
+		D98F241122AD19E7008CF28A /* myhairisbad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240722AD19E7008CF28A /* myhairisbad.jpg */; };
+		D98F241222AD19E7008CF28A /* myfirststory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240822AD19E7008CF28A /* myfirststory.jpg */; };
+		D98F241322AD19E7008CF28A /* 04limitedsazabys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240922AD19E7008CF28A /* 04limitedsazabys.jpg */; };
+		D98F241422AD19E7008CF28A /* oneokrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240A22AD19E7008CF28A /* oneokrock.jpg */; };
+		D98F241522AD19E7008CF28A /* manwithamission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240B22AD19E7008CF28A /* manwithamission.jpg */; };
+		D98F241622AD19E7008CF28A /* ellegarden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240C22AD19E7008CF28A /* ellegarden.jpg */; };
+		D98F241722AD19E7008CF28A /* radwimps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240D22AD19E7008CF28A /* radwimps.jpg */; };
+		D98F241822AD19E7008CF28A /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240E22AD19E7008CF28A /* avatar.jpg */; };
+		D98F241922AD19E7008CF28A /* theoralcigarettes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D98F240F22AD19E7008CF28A /* theoralcigarettes.jpg */; };
 		D9A81AF422ABC03B00FF1754 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF322ABC03B00FF1754 /* UserView.swift */; };
 		D9A81AF622ABC04600FF1754 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF522ABC04600FF1754 /* TweetView.swift */; };
 		D9A81AF822ABCCAE00FF1754 /* ActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81AF722ABCCAE00FF1754 /* ActionBar.swift */; };
@@ -44,17 +52,9 @@
 		D9A81B0F22AC8AC500FF1754 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */; };
 		D9A81B1222AC92A300FF1754 /* EditMyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B1122AC92A300FF1754 /* EditMyPage.swift */; };
 		D9A81B1422AC9E8200FF1754 /* MyPageSummery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */; };
-		D9DFC1F122ACB2B50004D4A4 /* myfirststory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1F022ACB2B50004D4A4 /* myfirststory.jpg */; };
 		D9DFC1F322ACB4370004D4A4 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC1F222ACB4370004D4A4 /* SearchResult.swift */; };
 		D9DFC1F522ACB4C60004D4A4 /* SearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC1F422ACB4C60004D4A4 /* SearchResultRow.swift */; };
 		D9DFC1F822ACB4EA0004D4A4 /* ArtistDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC1F722ACB4EA0004D4A4 /* ArtistDetail.swift */; };
-		D9DFC1FA22ACC5DC0004D4A4 /* oneokrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1F922ACC5DC0004D4A4 /* oneokrock.jpg */; };
-		D9DFC1FC22ACC68E0004D4A4 /* manwithamission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1FB22ACC68E0004D4A4 /* manwithamission.jpg */; };
-		D9DFC1FE22ACC77C0004D4A4 /* radwimps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1FD22ACC77C0004D4A4 /* radwimps.jpg */; };
-		D9DFC20022ACC7CD0004D4A4 /* ellegarden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC1FF22ACC7CD0004D4A4 /* ellegarden.jpg */; };
-		D9DFC20222ACC8B50004D4A4 /* myhairisbad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20122ACC8B50004D4A4 /* myhairisbad.jpg */; };
-		D9DFC20422ACC95A0004D4A4 /* 04limitedsazabys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */; };
-		D9DFC20622ACC9DA0004D4A4 /* theoralcigarettes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */; };
 		D9DFC20822ACCA990004D4A4 /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */; };
 		D9DFC20B22ACD3DC0004D4A4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFC20A22ACD3DC0004D4A4 /* Home.swift */; };
 /* End PBXBuildFile section */
@@ -101,11 +101,19 @@
 		D925E76722ABA26700DE866D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D925E76922ABA30400DE866D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D925E76C22ABA47000DE866D /* tweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tweets.json; sourceTree = "<group>"; };
-		D925E76D22ABA61A00DE866D /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = ../../../../Downloads/avatar.jpg; sourceTree = "<group>"; };
-		D925E76E22ABA61A00DE866D /* story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = story.jpg; path = ../../../../Downloads/story.jpg; sourceTree = "<group>"; };
 		D925E77222ABA84800DE866D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D925E77622ABAA5300DE866D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		D925E77822ABAE5100DE866D /* TweetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetImage.swift; sourceTree = "<group>"; };
+		D98F240622AD19E6008CF28A /* story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = story.jpg; sourceTree = "<group>"; };
+		D98F240722AD19E7008CF28A /* myhairisbad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myhairisbad.jpg; sourceTree = "<group>"; };
+		D98F240822AD19E7008CF28A /* myfirststory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myfirststory.jpg; sourceTree = "<group>"; };
+		D98F240922AD19E7008CF28A /* 04limitedsazabys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04limitedsazabys.jpg; sourceTree = "<group>"; };
+		D98F240A22AD19E7008CF28A /* oneokrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneokrock.jpg; sourceTree = "<group>"; };
+		D98F240B22AD19E7008CF28A /* manwithamission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manwithamission.jpg; sourceTree = "<group>"; };
+		D98F240C22AD19E7008CF28A /* ellegarden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ellegarden.jpg; sourceTree = "<group>"; };
+		D98F240D22AD19E7008CF28A /* radwimps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radwimps.jpg; sourceTree = "<group>"; };
+		D98F240E22AD19E7008CF28A /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		D98F240F22AD19E7008CF28A /* theoralcigarettes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theoralcigarettes.jpg; sourceTree = "<group>"; };
 		D9A81AF322ABC03B00FF1754 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D9A81AF522ABC04600FF1754 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
 		D9A81AF722ABCCAE00FF1754 /* ActionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBar.swift; sourceTree = "<group>"; };
@@ -120,17 +128,9 @@
 		D9A81B0E22AC8AC500FF1754 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		D9A81B1122AC92A300FF1754 /* EditMyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMyPage.swift; sourceTree = "<group>"; };
 		D9A81B1322AC9E8200FF1754 /* MyPageSummery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageSummery.swift; sourceTree = "<group>"; };
-		D9DFC1F022ACB2B50004D4A4 /* myfirststory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myfirststory.jpg; path = ../../../../Downloads/myfirststory.jpg; sourceTree = "<group>"; };
 		D9DFC1F222ACB4370004D4A4 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		D9DFC1F422ACB4C60004D4A4 /* SearchResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRow.swift; sourceTree = "<group>"; };
 		D9DFC1F722ACB4EA0004D4A4 /* ArtistDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetail.swift; sourceTree = "<group>"; };
-		D9DFC1F922ACC5DC0004D4A4 /* oneokrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oneokrock.jpg; path = ../../../../Downloads/oneokrock.jpg; sourceTree = "<group>"; };
-		D9DFC1FB22ACC68E0004D4A4 /* manwithamission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manwithamission.jpg; path = ../../../../Downloads/manwithamission.jpg; sourceTree = "<group>"; };
-		D9DFC1FD22ACC77C0004D4A4 /* radwimps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = radwimps.jpg; path = ../../../../Downloads/radwimps.jpg; sourceTree = "<group>"; };
-		D9DFC1FF22ACC7CD0004D4A4 /* ellegarden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ellegarden.jpg; path = ../../../../Downloads/ellegarden.jpg; sourceTree = "<group>"; };
-		D9DFC20122ACC8B50004D4A4 /* myhairisbad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myhairisbad.jpg; path = ../../../../Downloads/myhairisbad.jpg; sourceTree = "<group>"; };
-		D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04limitedsazabys.jpg; path = ../../../../Downloads/04limitedsazabys.jpg; sourceTree = "<group>"; };
-		D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = theoralcigarettes.jpg; path = ../../../../Downloads/theoralcigarettes.jpg; sourceTree = "<group>"; };
 		D9DFC20722ACCA990004D4A4 /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
 		D9DFC20A22ACD3DC0004D4A4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,16 +258,16 @@
 		D925E76B22ABA43C00DE866D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D9DFC20522ACC9DA0004D4A4 /* theoralcigarettes.jpg */,
-				D9DFC20322ACC95A0004D4A4 /* 04limitedsazabys.jpg */,
-				D9DFC20122ACC8B50004D4A4 /* myhairisbad.jpg */,
-				D9DFC1FF22ACC7CD0004D4A4 /* ellegarden.jpg */,
-				D9DFC1FD22ACC77C0004D4A4 /* radwimps.jpg */,
-				D9DFC1FB22ACC68E0004D4A4 /* manwithamission.jpg */,
-				D9DFC1F922ACC5DC0004D4A4 /* oneokrock.jpg */,
-				D9DFC1F022ACB2B50004D4A4 /* myfirststory.jpg */,
-				D925E76D22ABA61A00DE866D /* avatar.jpg */,
-				D925E76E22ABA61A00DE866D /* story.jpg */,
+				D98F240922AD19E7008CF28A /* 04limitedsazabys.jpg */,
+				D98F240E22AD19E7008CF28A /* avatar.jpg */,
+				D98F240C22AD19E7008CF28A /* ellegarden.jpg */,
+				D98F240B22AD19E7008CF28A /* manwithamission.jpg */,
+				D98F240822AD19E7008CF28A /* myfirststory.jpg */,
+				D98F240722AD19E7008CF28A /* myhairisbad.jpg */,
+				D98F240A22AD19E7008CF28A /* oneokrock.jpg */,
+				D98F240D22AD19E7008CF28A /* radwimps.jpg */,
+				D98F240622AD19E6008CF28A /* story.jpg */,
+				D98F240F22AD19E7008CF28A /* theoralcigarettes.jpg */,
 				D925E76C22ABA47000DE866D /* tweets.json */,
 				D9A81B0B22AC882400FF1754 /* account.json */,
 				D918CBB522ACB180007DFEB5 /* artists.json */,
@@ -462,22 +462,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D925E76F22ABA61A00DE866D /* avatar.jpg in Resources */,
-				D9DFC20222ACC8B50004D4A4 /* myhairisbad.jpg in Resources */,
-				D9DFC1FA22ACC5DC0004D4A4 /* oneokrock.jpg in Resources */,
+				D98F241322AD19E7008CF28A /* 04limitedsazabys.jpg in Resources */,
+				D98F241422AD19E7008CF28A /* oneokrock.jpg in Resources */,
 				D925E77522ABA9D800DE866D /* tweets.json in Resources */,
-				D9DFC1FC22ACC68E0004D4A4 /* manwithamission.jpg in Resources */,
-				D9DFC1F122ACB2B50004D4A4 /* myfirststory.jpg in Resources */,
 				D925E74122ABA13500DE866D /* LaunchScreen.storyboard in Resources */,
-				D9DFC1FE22ACC77C0004D4A4 /* radwimps.jpg in Resources */,
-				D925E77022ABA61A00DE866D /* story.jpg in Resources */,
+				D98F241222AD19E7008CF28A /* myfirststory.jpg in Resources */,
 				D925E73E22ABA13500DE866D /* Preview Assets.xcassets in Resources */,
-				D9DFC20422ACC95A0004D4A4 /* 04limitedsazabys.jpg in Resources */,
+				D98F241122AD19E7008CF28A /* myhairisbad.jpg in Resources */,
 				D9A81B0C22AC89C500FF1754 /* account.json in Resources */,
+				D98F241722AD19E7008CF28A /* radwimps.jpg in Resources */,
 				D918CBB622ACB18E007DFEB5 /* artists.json in Resources */,
+				D98F241522AD19E7008CF28A /* manwithamission.jpg in Resources */,
+				D98F241822AD19E7008CF28A /* avatar.jpg in Resources */,
+				D98F241022AD19E7008CF28A /* story.jpg in Resources */,
 				D925E73B22ABA13500DE866D /* Assets.xcassets in Resources */,
-				D9DFC20622ACC9DA0004D4A4 /* theoralcigarettes.jpg in Resources */,
-				D9DFC20022ACC7CD0004D4A4 /* ellegarden.jpg in Resources */,
+				D98F241922AD19E7008CF28A /* theoralcigarettes.jpg in Resources */,
+				D98F241622AD19E7008CF28A /* ellegarden.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
