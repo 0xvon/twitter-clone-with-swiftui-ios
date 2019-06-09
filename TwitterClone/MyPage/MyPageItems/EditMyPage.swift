@@ -32,6 +32,7 @@ struct EditMyPage : View {
             Toggle(isOn: $account.prefersNotifications) {
                 Text("Enable Notifications")
             }
+            Spacer()
         }
     }
 }
